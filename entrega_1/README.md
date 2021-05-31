@@ -4,8 +4,8 @@
 
 ### 1. Crear las imagenes del servidor y del cliente:
 
-	- estando en la carpeta servidor: docker build -t img_socket_servidor:v1 -f /servidor/Dokerfile .
-	- estando en la carpeta cliente: docker build -t img_socket_cliente:v1 -f /servidor/Dokerfile .
+	- estando en la carpeta servidor: docker build -t img_socket_servidor:v1 .
+	- estando en la carpeta cliente: docker build -t img_socket_cliente:v1 .
 
 ### 2. crear los contenedores del servidor y del cliente: crearlos en dos ventanas de terminal separadas
 
